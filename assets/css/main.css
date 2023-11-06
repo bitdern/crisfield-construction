@@ -26,7 +26,7 @@
 \*-----------------------------------*/
 
 @import url("./components/btn.css");
-
+@import url("./components/slider.css");
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -93,6 +93,19 @@
 /*-----------------------------------*\
   #CLIENT
 \*-----------------------------------*/
+
+.client {
+  background-color: var(--jet);
+  padding-block: 30px;
+}
+
+.client .slider-item {
+  min-width: calc(50% - 15px);
+}
+
+.client .slider::-webkit-scrollbar {
+  display: none;
+}
 
 /*-----------------------------------*\
   #ABOUT
