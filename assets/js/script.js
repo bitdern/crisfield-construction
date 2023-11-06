@@ -17,7 +17,6 @@ window.addEventListener("load", function () {
 
 // Mobile Nav Toggle
 const navbar = document.querySelector("[data-navbar]");
-const navbarLinks = document.querySelectorAll("[data-nav-link]");
 const navToggler = document.querySelector("[data-nav-toggler]");
 
 const toggleNavbar = function () {
@@ -25,3 +24,14 @@ const toggleNavbar = function () {
 };
 
 navToggler.addEventListener("click", toggleNavbar);
+
+// Header - Active header when window scrolled to 50px
+const header = document.querySelector("[data-header]");
+
+const activeHeader = function () {
+  window.scrollY > 50
+    ? header.classList.add("active")
+    : header.classList.remove("active");
+};
+
+window.addEventListener("scroll", activeHeader);
