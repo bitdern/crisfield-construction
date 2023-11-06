@@ -25,6 +25,8 @@
   #COMPONENTS
 \*-----------------------------------*/
 
+@import url("./components/btn.css");
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -40,6 +42,53 @@
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
+
+.hero {
+  position: relative;
+  background-color: var(--maximum-yellow-red_a10);
+  padding-block-start: calc(var(--section-padding) + 60px);
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  bottom: 70%;
+  right: -75%;
+  background-color: var(--maximum-yellow-red_a40);
+  transform: rotate(-45deg);
+  border-radius: var(--radius-50);
+  z-index: -1;
+}
+
+.hero .container {
+  display: grid;
+  gap: 70px;
+}
+
+.hero-subtitle {
+  color: var(--jet);
+  text-transform: uppercase;
+  font-weight: var(--fw-600);
+  letter-spacing: 3px;
+  margin-block-end: 20px;
+}
+
+.hero-text {
+  margin-block: 25px;
+}
+
+.hero .btn {
+  margin-inline: auto;
+}
+
+.hero-banner {
+  max-width: max-content;
+  margin-inline: auto;
+}
 
 /*-----------------------------------*\
   #CLIENT

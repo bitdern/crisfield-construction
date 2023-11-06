@@ -26,13 +26,11 @@ aria-label = menu
 
 #---------- HERO ----------#
 
-👋, My name is Annie
+Crisfield Construction Company
 
-I'm a Developer
+General Contracting Service Based in Redondo Beach, California.
 
-Based in Los Angeles, California.
-
-Let's Start
+LIC#: 1054389, TEL: (310) 944-0863
 
 alt = Annie, the blonde, dressed in a green hoodie with a smile on her face
 

@@ -146,6 +146,7 @@ html {
 body {
   background-color: var(--white);
   color: var(--davys-gray);
+  font-size: 1.6rem;
   line-height: 1.5;
   overflow: hidden;
 }
@@ -248,6 +249,14 @@ body.loaded {
 
 .container {
   padding-inline: 16px;
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+.w-100 {
+  width: 100%;
 }
 
 /*-----------------------------------*\
