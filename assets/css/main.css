@@ -111,6 +111,39 @@
   #ABOUT
 \*-----------------------------------*/
 
+.about .container {
+  display: grid;
+  gap: 50px;
+}
+
+.about .section-text {
+  margin-block: 25px 16px;
+}
+
+.about-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.about-list .list-text {
+  color: var(--jet);
+  font-weight: var(--fw-500);
+}
+
+.about-list .strong {
+  color: var(--orange-red);
+  display: block;
+}
+
+.about .wrapper {
+  margin-block-start: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px 25px;
+}
+
 /*-----------------------------------*\
   #SKILLS
 \*-----------------------------------*/

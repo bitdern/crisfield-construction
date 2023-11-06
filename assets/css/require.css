@@ -376,6 +376,7 @@ body.loaded {
 .navbar-link:is(:hover, :focus-visible, .active) {
   color: var(--orange-red);
 }
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
