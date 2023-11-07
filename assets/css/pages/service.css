@@ -18,6 +18,9 @@
   #COMPONENTS
 \*-----------------------------------*/
 
+@import url("../components/card.css");
+@import url("../components/btn.css");
+
 /*-----------------------------------*\
   #SERVICES
 \*-----------------------------------*/

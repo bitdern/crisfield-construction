@@ -31,6 +31,221 @@
     <link rel="preload" href="./assets/images/hero-banner.png" />
   </head>
   <body>
+    <!-- Preloader -->
+    <div class="preloader" data-preloader>
+      <div class="preloader-circle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/images/cc-logo.svg"
+            width="151"
+            height="28"
+            alt="Crisfield Construction home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="./index.html" class="label-lg navbar-link has-after"
+                >Home</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="label-lg navbar-link has-after active"
+                >Services</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="./portfolio.html" class="label-lg navbar-link has-after"
+                >Portfolio</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="./contact.html" class="label-lg navbar-link has-after"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+        <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- Services Page -->
+        <section
+          class="section service has-bg-image"
+          aria-labelledby="service-label"
+          style="background-image: url('./assets/images/service-bg.png')"
+        >
+          <div class="container">
+            <h2
+              class="section-title headline-md text-center"
+              id="service-label"
+            >
+              Services Offered:
+            </h2>
+
+            <ul class="service-list">
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: bg-color = hsl(177, 39%, 72%)"
+                >
+                  <div class="card-media">
+                    <ion-icon name="construct"></ion-icon>
+                  </div>
+
+                  <div class="card-title title-sm">
+                    <h3 class="card-title title-sm">Construction</h3>
+                    <p class="body-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(41, 99%, 64%)"
+                >
+                  <div class="card-media">
+                    <ion-icon name="home"></ion-icon>
+                  </div>
+
+                  <div class="card-title title-sm">
+                    <h3 class="card-title title-sm">Renovations & Remodels</h3>
+                    <p class="body-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(245, 100%, 90%)"
+                >
+                  <div class="card-media">
+                    <ion-icon name="hammer"></ion-icon>
+                  </div>
+
+                  <div class="card-title title-sm">
+                    <h3 class="card-title title-sm">Finished Carpentry</h3>
+                    <p class="body-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(19, 97%, 85%)"
+                >
+                  <div class="card-media">
+                    <ion-icon name="megaphone"></ion-icon>
+                  </div>
+
+                  <div class="card-title title-sm">
+                    <h3 class="card-title title-sm">
+                      Subcontractor Management
+                    </h3>
+                    <p class="body-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(221, 100%, 79%)"
+                >
+                  <div class="card-media">
+                    <ion-icon name="pricetags"></ion-icon>
+                  </div>
+
+                  <div class="card-title title-sm">
+                    <h3 class="card-title title-sm">Fair Quotes</h3>
+                    <p class="body-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(76, 39%, 72%)"
+                >
+                  <div class="card-media">
+                    <ion-icon name="trash-bin"></ion-icon>
+                  </div>
+
+                  <div class="card-title title-sm">
+                    <h3 class="card-title title-sm">Demolition</h3>
+                    <p class="body-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <ul class="social-list">
+          <li>
+            <a
+              href="https://www.instagram.com/crisfield__construction/"
+              class="social-link"
+            >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="text-center">&copy; Crisfield Construction 2023</p>
+      </div>
+    </footer>
+
     <!-- Custom JavaScript -->
     <script src="./assets/js/script.js"></script>
 
