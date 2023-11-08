@@ -72,3 +72,32 @@
 /**
  * RESPONSIVE MEDIA QUERY
  */
+
+.card-container {
+  container-type: inline-size;
+}
+
+@container (min-width: 500px) {
+  .card-lg,
+  .card-md {
+    flex-direction: row;
+  }
+}
+
+/**
+ * RESPONSIVE MEDIA QUERY
+ */
+
+@media (min-width: 768px) {
+  .card-lg {
+    padding: 35px;
+  }
+
+  .card-md {
+    padding: 40px;
+  }
+
+  .card-sm {
+    padding: 15px;
+  }
+}
