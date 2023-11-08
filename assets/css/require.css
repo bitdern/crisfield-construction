@@ -22,7 +22,7 @@
 :root {
   /* Colors */
 
-  /* --truck-blue: hsla(187, 40%, 53%, 1)  */
+  --truck-blue: hsla(187, 40%, 53%, 1);
   /* --gunmetal-grey: hsla(208, 12%, 21%, 1) */
   --maximum-yellow-red_a10: hsla(41, 99%, 64%, 0.1);
   --maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);
