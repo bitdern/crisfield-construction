@@ -93,7 +93,7 @@
           style="background-image: url('./assets/images/contact-bg.png')"
         >
           <div class="container">
-            <form action="" class="contact-form">
+            <form action="" onsubmit="sendEmail(event)" class="contact-form">
               <h2 class="headline-sm" id="contact-label">Get In Touch</h2>
 
               <p class="contact-text body-md">🛠️ Let's build, together 🤝</p>
@@ -131,7 +131,7 @@
                 name="subject"
                 id="subject"
                 placeholder="Message Subject"
-                class="input-field"
+                class="input-field email-subject"
               />
 
               <label for="message" class="label">Your Message</label>
@@ -140,10 +140,13 @@
                 id="message"
                 placeholder="How can we help?"
                 required
-                class="input-field"
+                class="input-field email-body"
               ></textarea>
-
-              <a href="#" class="btn btn-tertiary">Send Message</a>
+              <input
+                type="submit"
+                value="Get in Touch"
+                class="btn btn-tertiary"
+              />
             </form>
 
             <div class="contact-content">
@@ -159,7 +162,7 @@
                   <div>
                     <p class="label-lg">Phone</p>
 
-                    <a href="tel:+011236548096" class="body-lg"
+                    <a href="tel: (310) 944-0863" class="body-lg"
                       >(310) 944-0863</a
                     >
                   </div>
@@ -176,14 +179,15 @@
                   <div>
                     <p class="label-lg">Email</p>
 
-                    <a href="tel:info@domainname.com" class="body-lg"
-                      >info@domainname.com</a
+                    <a
+                      href="email: crisfieldconstruction1@gmail.com"
+                      class="body-lg"
+                      >crisfieldconstruction1@gmail.com</a
                     >
                   </div>
                 </li>
 
-                <!-- Physical Address (not required IMO)
-                  <li class="contact-item">
+                <li class="contact-item">
                   <div
                     class="item-icon"
                     style="background-color: hsl(19, 97%, 85%)"
@@ -192,13 +196,13 @@
                   </div>
 
                   <div>
-                    <p class="label-lg">Visit My Studio</p>
+                    <p class="label-lg">Visit My Shop</p>
 
                     <address class="body-lg">
-                      Warnwe Park Streetperrine, FL 33157 New York City
+                      1850 W 144th St, Gardena CA, 90249
                     </address>
                   </div>
-                </li> -->
+                </li>
               </ul>
             </div>
           </div>
