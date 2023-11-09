@@ -58,7 +58,7 @@
   left: 10%;
   bottom: 70%;
   right: -75%;
-  background-color: var(--truck-blue-accent);
+  background-color: var(--truck-blue-sharp);
   transform: rotate(-45deg);
   border-radius: var(--radius-50);
   z-index: -1;

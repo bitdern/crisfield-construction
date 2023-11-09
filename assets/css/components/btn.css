@@ -33,10 +33,10 @@
 
 .btn-tertiary {
   color: var(--jet);
-  background-color: var(--maximum-yellow-red);
-  --shadow-color: var(--orange-red);
-  --hover-bg: var(--orange-red);
-  --hover-shadow-color: var(--maximum-yellow-red);
+  background-color: var(--truck-blue-accent);
+  --shadow-color: var(--truck-blue-btn);
+  --hover-bg: var(--truck-blue-btn);
+  --hover-shadow-color: var(--truck-blue-accent);
 }
 
 .btn-tertiary:is(:hover, :focus-visible) {

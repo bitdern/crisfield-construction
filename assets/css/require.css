@@ -23,9 +23,9 @@
   /* Colors */
 
   --truck-blue: rgb(50, 168, 184);
-  --truck-blue-btn: rgb(2, 83, 94);
-  --truck-blue-accent: rgba(159, 233, 243, 0.7);
-  --truck-blue-sharp: rgba(69, 225, 245, 0.795);
+  --truck-blue-btn: rgb(37, 144, 158);
+  --truck-blue-accent: rgba(229, 247, 250, 0.87);
+  --truck-blue-sharp: rgba(69, 225, 245, 0.5);
   --maximum-yellow-red_a10: hsla(41, 99%, 64%, 0.1);
   --maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);
   --maximum-yellow-red: hsl(41, 99%, 64%);
@@ -564,7 +564,7 @@ body.loaded {
     transform-origin: right;
     width: 80%;
     height: 2px;
-    background-color: var(--orange-red);
+    background-color: var(--truck-blue);
     transition: transform var(--transition-1);
   }
 
