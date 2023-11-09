@@ -22,8 +22,10 @@
 :root {
   /* Colors */
 
-  --truck-blue: hsla(187, 40%, 53%, 1);
-  /* --gunmetal-grey: hsla(208, 12%, 21%, 1) */
+  --truck-blue: rgb(50, 168, 184);
+  --truck-blue-btn: rgb(2, 83, 94);
+  --truck-blue-accent: rgba(159, 233, 243, 0.7);
+  --truck-blue-sharp: rgba(69, 225, 245, 0.795);
   --maximum-yellow-red_a10: hsla(41, 99%, 64%, 0.1);
   --maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);
   --maximum-yellow-red: hsl(41, 99%, 64%);
@@ -297,7 +299,7 @@ body.loaded {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--orange-red);
+  background-color: var(--truck-blue);
   display: grid;
   place-items: center;
   z-index: 6;
@@ -402,7 +404,7 @@ body.loaded {
 }
 
 .navbar-link:is(:hover, :focus-visible, .active) {
-  color: var(--orange-red);
+  color: var(--truck-blue);
 }
 
 /*-----------------------------------*\
@@ -428,7 +430,7 @@ body.loaded {
 }
 
 .social-link:is(:hover, :focus-visible) {
-  color: var(--orange-red);
+  color: var(--truck-blue-sharp);
 }
 
 /*-----------------------------------*\

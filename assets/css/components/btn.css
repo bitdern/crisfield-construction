@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 .btn {
-  background-color: var(--orange-red);
+  background-color: var(--truck-blue-btn);
   font-size: var(--fs-14);
   font-weight: var(--fw-500);
   text-transform: uppercase;
@@ -16,7 +16,7 @@
 
 .btn:is(:hover, :focus-visible) {
   background-color: var(--hover-bg, var(--jet));
-  box-shadow: 5px 5px 0 -2px var(--hover-shadow-color, var(--orange-red));
+  box-shadow: 5px 5px 0 -2px var(--hover-shadow-color, var(--truck-blue-btn));
 }
 
 .btn-primary,
@@ -26,8 +26,8 @@
 
 .btn-secondary {
   background-color: var(--jet);
-  --shadow-color: var(--orange-red);
-  --hover-bg: var(--orange-red);
+  --shadow-color: var(--truck-blue-btn);
+  --hover-bg: var(--truck-blue-btn);
   --hover-shadow-color: var(--jet);
 }
 

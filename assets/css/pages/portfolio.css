@@ -72,7 +72,7 @@
 }
 
 .portfolio-card .chip {
-  background-color: var(--orange-red_a20);
+  background-color: var(--truck-blue-accent);
   max-width: max-content;
   color: var(--jet);
   font-weight: var(--fw-500);
