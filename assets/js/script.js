@@ -40,15 +40,12 @@ window.addEventListener("scroll", activeHeader);
 function sendEmail(event) {
   event.preventDefault();
 
-  const fullName = document.querySelector(".full-name").value;
-  const emailAddress = document.querySelector(".email-address").value;
-  const mobileNumber = document.querySelector(".mobile-number").value;
   const emailSubject = document.querySelector(".email-subject").value;
   const emailBody = document.querySelector(".email-body").value;
 
   // TEST FUNCTIONALITY W MY ADDY
   // the variables customize the mailto link
-  const mailtoLink = `mailto:acnewell09@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+  const mailtoLink = `mailto:crisfieldconstruction1@gmail.com?subject=${emailSubject}&body=${emailBody}`;
 
   window.open(mailtoLink);
 
