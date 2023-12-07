@@ -87,6 +87,24 @@
   margin-block: 10px 25px;
 }
 
+.card-banner .swiper-button-next,
+.card-banner .swiper-button-prev {
+  color: var(--truck-blue);
+  font-size: 0.5rem;
+}
+
+.card-banner .swiper-button-next {
+  right: 0;
+}
+
+.card-banner .swiper-button-prev {
+  left: 0;
+}
+
+.card-banner .swiper-pagination-bullet-active {
+  background-color: var(--truck-blue);
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/

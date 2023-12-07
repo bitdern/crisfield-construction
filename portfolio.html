@@ -27,6 +27,12 @@
     <link rel="stylesheet" href="./assets/css/require.css" />
     <link rel="stylesheet" href="./assets/css/pages/portfolio.css" />
 
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <!-- Preload Images -->
     <link rel="preload" href="./assets/images/hero-banner.png" />
   </head>
@@ -100,27 +106,31 @@
               <li>
                 <div class="portfolio-card">
                   <div
-                    class="card-banner img-holder"
+                    class="card-banner img-holder mySwiper"
                     style="--width: 800; --height: 540"
                   >
-                    <img
-                      src="./assets/images/portfolio-1.jpg"
-                      width="800"
-                      height="540"
-                      loading="lazy"
-                      alt="Context for project image"
-                      class="img-cover"
-                    />
-                    <a
-                      href="#"
-                      class="btn-icon"
-                      aria-label="More about this project"
-                    >
-                      <ion-icon
-                        name="arrow-forward-sharp"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </a>
+                    <div class="swiper-wrapper">
+                      <img
+                        src="./assets/images/portfolio-2.jpg"
+                        width="800"
+                        height="540"
+                        loading="lazy"
+                        alt="Context for project image"
+                        class="img-cover swiper-slide"
+                      />
+                      <img
+                        src="./assets/images/testi-4.jpg"
+                        width="800"
+                        height="540"
+                        loading="lazy"
+                        alt="Context for project image"
+                        class="img-cover swiper-slide"
+                      />
+
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-pagination"></div>
+                    </div>
                   </div>
                   <div class="card-content">
                     <span class="chip label-md">Service Category</span>
@@ -283,6 +293,9 @@
         <p class="text-center">&copy; Crisfield Construction 2023</p>
       </div>
     </footer>
+
+    <!-- Swiper JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <!-- Custom JavaScript -->
     <script src="./assets/js/script.js"></script>
