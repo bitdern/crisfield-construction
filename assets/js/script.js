@@ -43,7 +43,6 @@ function sendEmail(event) {
   const emailSubject = document.querySelector(".email-subject").value;
   const emailBody = document.querySelector(".email-body").value;
 
-  // TEST FUNCTIONALITY W MY ADDY
   // the variables customize the mailto link
   const mailtoLink = `mailto:crisfieldconstruction1@gmail.com?subject=${emailSubject}&body=${emailBody}`;
 
@@ -52,3 +51,19 @@ function sendEmail(event) {
   // reset the form & clear its contents after submission
   event.target.reset();
 }
+
+// swiper for projects page
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 50,
+  grabCursor: true,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
